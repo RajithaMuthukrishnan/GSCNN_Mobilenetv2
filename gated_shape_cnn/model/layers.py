@@ -533,7 +533,7 @@ class FinalLogitLayer(tf.keras.layers.Layer):
 
 
 class Mobilenetv2Backbone(tf.keras.layers.Layer):
-#     ADD_6_LAYER_INDEX = 75
+
     def __init__(self, **kwargs):
         super(Mobilenetv2Backbone, self).__init__(**kwargs)
         self.backbone = None
@@ -548,12 +548,6 @@ class Mobilenetv2Backbone(tf.keras.layers.Layer):
                 's3': backbone.get_layer('block_5_add').output,
                 's4': backbone.get_layer('out_relu').output,
             })
-#             outputs={
-#                 's1': backbone.get_layer('block_2_add').output,
-#                 's2': backbone.get_layer('block_4_add').output,
-#                 's3': backbone.get_layer('block_5_add').output,
-#                 's4': backbone.get_layer('block_7_add').output,
-#             })
 
 
     def call(self, inputs, training=None):
