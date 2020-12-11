@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from gated_shape_cnn.model.atrous_mobilenetv2 import Mobilenetv2
+from gated_shape_cnn.model.mobilenetv2 import Mobilenetv2
 import keras.applications as kapp
 
 
