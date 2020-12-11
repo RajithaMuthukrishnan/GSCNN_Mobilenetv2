@@ -1,0 +1,4 @@
+Download the dataset from https://www.cityscapes-dataset.com
+Unzip the uploaded folder and add them here.
+
+The dataset is not uploaded here as it is not meant for distribution
