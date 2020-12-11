@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from gated_shape_cnn.model.atrous_mobilenetv2 import AtrousMobilenetv2
+from gated_shape_cnn.model.atrous_mobilenetv2 import Mobilenetv2
 import keras.applications as kapp
 
 
@@ -537,7 +537,7 @@ class Mobilenetv2Backbone(tf.keras.layers.Layer):
     def __init__(self, **kwargs):
         super(Mobilenetv2Backbone, self).__init__(**kwargs)
         self.backbone = None
-        backbone = AtrousMobilenetv2()
+        backbone = Mobilenetv2()
         self.backbone = tf.keras.Model(
             backbone.input,
         
