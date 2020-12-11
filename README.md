@@ -16,6 +16,8 @@ Modified scripts :
 2. Shape stream layers, Fusion module layers definition - gated_shape_cnn/model/layers.py
 3. GSCNN model definition - gated_shape_cnn/model/model_definition.py
 
+Jupyter notebook - GCSNN_MobileNetV2_Experiment_notebook.ipynb
+
 
 Cityscapescripts[2] is installed for validation set evaluation
 
