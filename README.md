@@ -23,3 +23,6 @@ Cityscapescripts[2] is installed for validation set evaluation
 [1] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The Cityscapes Dataset for Semantic Urban Scene Understanding,” in Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
 
 [2] Cityscape Evaluation scripts:  https://github.com/mcordts/cityscapesScripts
+
+
+Further work on model definition is required to produce good results
