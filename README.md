@@ -1,4 +1,7 @@
 # GSCNN_Mobilenetv2
+
+...Checking Branch...
+
 Tensorflow keras Gated-Shape CNN with MobileNetV2 backbone
 
 Source code for Gated-Shape CNN with MobileNetV2 implementation.
