@@ -20,7 +20,7 @@ Jupyter notebook - GCSNN_MobileNetV2_Experiment_notebook.ipynb
 
 
 Cityscapescripts[2] is installed for validation set evaluation
-## RESULTS
+
 <img width="319" height="322" alt="GSCNN_Mobilenet_image2" src="https://github.com/user-attachments/assets/a8aa1217-f51c-4883-9b1c-b3f1e818c4bd" />
 <img width="326" height="321" alt="GSCNN_MobileNet_image1" src="https://github.com/user-attachments/assets/d2db54ca-09ae-437f-8eb6-4a810ebc6373" />
 
